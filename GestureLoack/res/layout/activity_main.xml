@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    tools:context="com.jing.gestureloack.MainActivity" >
+
+    <com.jing.gestureloack.GesturePointView
+        android:id="@+id/ges_point"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" >
+    </com.jing.gestureloack.GesturePointView>
+
+    <com.jing.gestureloack.GestureLockView
+        android:id="@+id/gesture"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+    </com.jing.gestureloack.GestureLockView>
+
+</LinearLayout>
